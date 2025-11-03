@@ -62,7 +62,14 @@
             label = "HANKAKUDOT";
         };
 
-        pass: pass {
+        hankakuCOLON: hankakuCOLON {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_COLON>;
+            label = "HANKAKUCOLON";
+        };
+
+         pass: pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(B) &kp O &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
