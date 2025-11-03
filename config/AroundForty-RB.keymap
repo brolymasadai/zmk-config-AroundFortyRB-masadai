@@ -49,6 +49,35 @@
         };
     };
 
+        hankakuComma: hankakuComma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INT_MUHENKAN &kp COMMA>;
+            label = "HANKAKUCOMMA";
+        };
+
+        hankakuDOT: hankakuDOT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_5 &kp PERIOD>;
+            label = "HANKAKUDOT";
+        };
+
+        hankakuCOLON: hankakuCOLON {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INT_MUHENKAN &kp JP_COLON>;
+            label = "HANKAKUCOLON";
+        };
+
+        pass: pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(B) &kp O &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
+            label = "PASS";
+        };
+    };
+
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
