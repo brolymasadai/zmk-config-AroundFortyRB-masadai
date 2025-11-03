@@ -47,6 +47,27 @@
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        hankakuComma: hankakuComma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp COMMA>;
+            label = "HANKAKUCOMMA";
+        };
+
+        hankakuDOT: hankakuDOT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp PERIOD>;
+            label = "HANKAKUDOT";
+        };
+
+        pass: pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(B) &kp O &kp N &kp G &kp O &kp N3 &kp N1 &kp N2 &kp N0>;
+            label = "PASS";
+        };
     };
 
     behaviors {
