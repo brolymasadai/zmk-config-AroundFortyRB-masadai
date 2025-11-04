@@ -183,7 +183,7 @@
 
         AutoMouse_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans    &kp LG(W)  &pass      &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans    &kp LC(W)  &pass      &trans    &trans
 &trans  &trans  &trans  &trans  &trans          &mkp MB5  &mkp MB1   &mkp MB3   &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp MB4   &kp LC(R)  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans
