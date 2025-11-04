@@ -120,7 +120,7 @@
         Win-Common_Layer {
             bindings = <
 &kp EXCLAMATION   &kp F2          &kp UP_ARROW    &kp F4           &kp JP_LPAREN            &kp JP_RPAREN    &trans          &trans          &kp LEFT_BRACKET  &kp PLUS
-&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans           &trans          &kp UP_ARROW    &trans            &trans
+&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(T)                &trans           &trans          &kp UP_ARROW    &trans            &trans
 &trans            &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp JP_LBRACKET  &trans  &kp JP_RBRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp QUESTION
 &kp LEFT_SHIFT    &kp LEFT_ALT    &trans          &trans           &trans           &trans  &trans           &kp LC(T)       &kp DELETE      &trans            &kp JP_UNDERSCORE
             >;
