@@ -141,10 +141,10 @@
 
         Win-Function_Layer {
             bindings = <
-&trans   &kp LC(X)        &kp LC(C)    &kp LC(V)  &trans          &trans           &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
-&kp TAB  &kp DOLLAR       &kp PERCENT  &mkp MB1   &trans          &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_CONTROL
-&trans   &kp EXCLAMATION  &trans       &kp HASH   &trans  &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &trans
-&trans   &trans           &trans       &trans     &trans  &trans  &kp ENTER        &trans          &kp BACKSPACE   &trans           &trans
+&trans   &kp JP_QUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &trans          &trans           &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
+&kp TAB  &kp DOLLAR       &kp PERCENT    &kp JP_AMPERSAND  &trans          &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_CONTROL
+&trans   &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans  &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &trans
+&trans   &trans           &trans         &trans            &trans  &trans  &kp ENTER        &trans          &kp BACKSPACE   &trans           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
