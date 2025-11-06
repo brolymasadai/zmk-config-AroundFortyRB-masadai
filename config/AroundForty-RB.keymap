@@ -121,7 +121,7 @@
             bindings = <
 &kp EXCLAMATION   &kp F2          &kp UP_ARROW    &kp F4           &kp JP_LPAREN            &kp JP_RPAREN    &kp LC(W)  &trans      &kp LEFT_BRACKET  &kp PLUS
 &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(T)                &mkp MB5         &mkp MB1   &mkp MB3    &mkp MB2          &trans
-&trans            &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp JP_LBRACKET  &trans  &kp JP_RBRACKET  &mkp MB4   &kp LC(R)   &trans            &kp QUESTION
+&kp LS(LEFT_GUI)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp JP_LBRACKET  &trans  &kp JP_RBRACKET  &mkp MB4   &kp LC(R)   &trans            &kp QUESTION
 &kp LEFT_SHIFT    &kp LEFT_ALT    &trans          &trans           &trans           &trans  &trans           &kp LC(T)  &kp DELETE  &trans            &kp JP_UNDERSCORE
             >;
 
@@ -143,8 +143,8 @@
             bindings = <
 &trans   &kp JP_QUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &trans          &trans           &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
 &kp TAB  &kp DOLLAR       &kp PERCENT    &kp JP_AMPERSAND  &trans          &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_CONTROL
-&trans   &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans  &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &trans
-&trans   &trans           &trans         &trans            &trans  &trans  &kp ENTER        &trans          &kp BACKSPACE   &trans           &trans
+&trans   &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans  &trans  &kp LS(LC(N))    &kp HOME        &trans          &kp END          &kp LS(LEFT_GUI)
+&trans   &trans           &trans         &trans            &trans  &trans  &kp ENTER        &trans          &kp BACKSPACE   &trans           &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
