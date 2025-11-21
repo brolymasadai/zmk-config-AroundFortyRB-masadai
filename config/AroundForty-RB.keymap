@@ -41,24 +41,9 @@
     combos {
         compatible = "zmk,combos";
 
-        a {
-            bindings = <&kp A>;
-            key-positions = <6 7>;
-        };
-
-        b {
-            bindings = <&kp B>;
-            key-positions = <15 16>;
-        };
-
-        c {
-            bindings = <&kp C>;
-            key-positions = <17 18>;
-        };
-
-        d {
-            bindings = <&kp D>;
-            key-positions = <27 28>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
         };
     };
 
