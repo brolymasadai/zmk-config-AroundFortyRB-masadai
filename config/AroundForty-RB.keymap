@@ -43,7 +43,7 @@
 
         FUNCTIONlayer_ESC {
             bindings = <&lt 10 ESC>;
-            key-positions = <39 38>;
+            key-positions = <39 36>;
         };
 
         tab {
