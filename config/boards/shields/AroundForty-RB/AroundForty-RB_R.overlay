@@ -21,9 +21,6 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <&zip_temp_layer 8 800>;
-&mkp_input_listener {
-        input-processors = <&zip_temp_layer 8 800>;
-};
 
     };
 };
